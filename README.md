@@ -26,4 +26,4 @@ Tables
 Sample_Data contains data in CSV form.  The data must be first converted to vectorized persistence images and saved as a Julia Serialization object.  See the README in that folder for details.
 
 ## Usage
-See READMEs in Source_Code for details.
+See README in Source_Code for details.
