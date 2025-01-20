@@ -2,7 +2,7 @@
 There are two types of sample time series data included here:  Two dimensional data of loops (with 1, 2, or 3 loops per frame),  and three dimensional time series of randomly selected from spherical normal random variables with different variances.
 
 ## Usage
-The time series data (leaf_series_data and Var_Change_Points files) must first be converted to a Julia serialization object (.jls file) using the timeSeries_to_PIs function available in the TDA_Tools package in the Source_Code folder.  The syntax is shown below.
+The time series data (leaf_series_data and Var_Change_Points files) must first be converted to a Julia serialization object (.jls file) using the timeSeries_to_PIs function available in the TDA_Tools.jl script in the Source_Code folder.  The syntax is shown below.
 
 timeSeries_to_PIs(time_series, output_file, window_sz, slide; jump=1, max_dim=1, pi_sz=5, stack=false, converter=nothing)
 
