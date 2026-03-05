@@ -2,6 +2,12 @@
 Disentangled Sticky Hierarchical Dirichlet Process Hidden Markov Model with Topological Emissions
 (developed in VS Code using Julia)
 
+The model detects changes in time series data by capturing key topological features of the data's overall “shape.”
+
+This is accomplished by computing vectorized persistence diagrams from sliding windows of the data. These topological summaries are then used as the emission features in a Hidden Markov Model (HMM).
+
+To allow the number of hidden states to be determined automatically, the model places a Hierarchical Dirichlet Process (HDP) prior on the Markov transition process.
+
 ## Install
 The primary code is found in the Source_Code folder.  Once Julia is installed, the following packages must also be available.
 
