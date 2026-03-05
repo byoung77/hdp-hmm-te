@@ -102,3 +102,23 @@ Sample_Data contains data in CSV form.  The data must be first converted to vect
 See README in Source_Code for details.
 If you use this project in research, consider documenting the exact Julia/package versions used in your environment to improve reproducibility.
 
+## Key References
+
+The model implemented here draws on the following works.
+
+1. Fox, E., Sudderth, E., Jordan, M., & Willsky, A. (2009).  
+   *The Sticky HDP–HMM: Bayesian Nonparametric Hidden Markov Models with Persistent States.*  
+   MIT Laboratory for Information and Decision Systems Technical Report.
+
+2. Teh, Y. W., Jordan, M. I., Beal, M. J., & Blei, D. M. (2006).  
+   *Hierarchical Dirichlet Processes.*  
+   Journal of the American Statistical Association, 101(476), 1566–1581.
+
+3. Zheng, X., Mak, S., Xie, L., & Xie, Y. (2023).  
+   *PERCEPT: A New Online Change-Point Detection Method Using Topological Data Analysis.*  
+   Technometrics, 65(2), 162–178.
+
+4. Zhou, D., Gao, Y., & Paninski, L. (2020).  
+   *Disentangled Sticky Hierarchical Dirichlet Process Hidden Markov Model.*  
+   In *Machine Learning and Knowledge Discovery in Databases (ECML PKDD)*. Springer.
+
